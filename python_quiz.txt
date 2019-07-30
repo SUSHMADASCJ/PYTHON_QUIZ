@@ -1,0 +1,72 @@
+print("         \t\t\t\tPYTHON QUIZ!!         ")
+print("********************************************************************************************************")
+print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\"For Every Correct Answer You Gain 2 Points\"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+count=0
+print("WHAT IS THE ANSWER OF THIS EXPRESSION??\n 5+38-(2*20)//4-2+5-8\n1. 28.0\n2. 6.75\n3. 32\n4. 28\n")
+n=int(input("Enter your answer"))
+if n==4:
+    print("CORRECT ANSWER\n\n")
+    count+=2 
+else:
+    print("WRONG ANSWER\n\n")
+print("********************************************************************************************************")
+print("tuple1=('python','is','the','programming','language')")
+print("tuple1[2]='a'")
+print("Will tuple1[2] gets replaced by a?")
+print("1.  Yes\n2.  No")
+m=int(input("Enter your answer"))
+if m==2:
+    print("CORRECT ANSWER\n it will not get replaced because tuple is immutable\n\n")
+    count+=2
+else:
+    print("WRONG ANSWER\n\n")
+print("********************************************************************************************************")
+print("In Python Can A user Define his/her own functions??")
+print("1.  yes \n 2.  no")
+x=input("Enter your answer")
+if x=='1':
+    print("CORRECT ANSWER\n\n")
+    count+=2
+else:
+    print("WRONG ANSWER\n\n")
+print("********************************************************************************************************")
+print("n=\"hello\" \n m=2")
+print("what will be the output when n+m is performed? \n 1.  hello2\n2.  hello 2\n 3.  hello\n\t2 \n4.  error:string and integer cannot be concatenated")
+y=int(input("Enter your answer"))
+if y==4:
+    print("CORRECT ANSWER\n\n")
+    count+=2
+else:
+    print("WRONG ANSWER\n\n")
+print("********************************************************************************************************")
+print("Which of the below algorithm uses divide and conquer method for sorting??")
+print("1.  quick sort\n2.  merge sort\n3.  bubble sort\n4. selection sort")
+z=int(input("Enter your answer"))
+if z==2:
+    print("CORRECT ANSWER\n\n")
+    count+=2
+else:
+    print("WRONG ANSWER\n\n")
+print("********************************************************************************************************")
+print("which of thw following operator below has an right precedance")
+print("1.  **\n2.  /\n3.  *\n4.//\n")
+a=int(input("Enter your answer"))
+if a==1:
+    print("CORRECT ANSWER\n\n")
+    count+=2
+else:
+    print("WRONG ANSWER\n\n")
+print("********************************************************************************************************")
+print("which pair mentioned below is used foe exception handling??")
+print("1.  try\n except\n\n2. try \n catch \n")
+b=int(input("Enter your answer?"))
+if b==1:
+    print("CORRECT ANSWER\n\n")
+    count+=2
+else:
+    print("WRONG ANSWER\n\n")
+print("********************************************************************************************************")
+print("Calculating.........")
+print("Your Total Marks is",count)
+print("*************************************CONGRATULATIONS!!!!************************************************")
+print("*****************************************THANK YOU******************************************************")
